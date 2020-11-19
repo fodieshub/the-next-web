@@ -48,7 +48,9 @@ body {
 .sub-nav {
     height: 50px;
     background-color: #ffffff;
-    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .subnav-lnk {
@@ -65,6 +67,25 @@ body {
 }
 
 .sub-nav-content {
-    padding-top: 17px;
     margin-left: 11px;
+}
+
+.nav-search {
+    padding: 14px 16px;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.nav-search-1 {
+    align-self: flex-end;
+}
+
+.icon-button {
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.nav-search:hover {
+    color: rgb(114, 112, 112);
 }
