@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    background-color: #131313;
+    height: 30px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lnk {
+    text-decoration: none;
+    color: #ffffff99;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.nav-lnk:hover {
+    color: #ffffff;
+}
+
+.news-color {
+    color: #ffffff;
+}
+
+.leftnav {
+    margin-left: 15px;
+}
+
+.fa-sort-down {
+    font-size: 15px; 
+}
+
+.righttnav {
+    margin-right: 20px;
+}
