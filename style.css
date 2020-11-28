@@ -5,45 +5,58 @@
 }
 
 body {
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(218, 214, 214);
 }
 
 .container {
     background-color: #131313;
-    height: 30px;
-    padding-top: 5px;
+    height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nav-lnk {
+.first-nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 22px;
+}
+
+ul li {
+    display: inline;
+}
+
+.first-nav ul li a {
+    color: #ffffff99;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.rightnav a {
     text-decoration: none;
     color: #ffffff99;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-}
-
-.nav-lnk:hover {
-    color: #ffffff;
+    padding-right: 10px;
+    font-size: 14px;
 }
 
 .news-color {
     color: #ffffff;
 }
 
-.leftnav {
-    margin-left: 15px;
+ul li a:hover {
+    color: #ffffff;
 }
 
-.fa-sort-down {
+.rightnav a:hover {
+    color: #ffffff;
+}
+
+/* .fa-sort-down {
     font-size: 15px; 
-}
-
-.righttnav {
-    margin-right: 20px;
-    justify-content: flex-end;
-}
+    padding-left: 5px;
+} */
 
 .sub-nav {
     height: 50px;
@@ -88,4 +101,78 @@ body {
 
 .nav-search:hover {
     color: rgb(114, 112, 112);
+}
+
+.main-container {
+    height: 70vh;
+    display: flex;
+    padding: 10px;
+}
+
+/* background-image: linear-gradient(to right bottom, 
+        rgba($color-primary-light, 0.9), 
+        rgba($color-primary-dark, 0.9) ),
+        url(../img/commercial.jpg); */
+
+.child-one {
+    width: 60%;
+    height: 93%;
+    background-image: linear-gradient(to right bottom, 
+    rgb(226, 0, 0, 0.9), 
+    rgba(225, 233, 219, 0.9) ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-1-796x417.png");
+    background-repeat: no-repeat;
+}
+
+.child-two {
+    width: 40%;
+    margin-left: 8px;
+    height: 92%;
+}
+
+.article1 {
+    background-color: red;
+    margin-bottom: 5px;
+    height: 50%;
+}
+
+.article2 {
+    background-color: greenyellow;
+    height: 50%;
+}
+
+@media (max-width: 767px) {
+    header {
+        display: none;
+    }
+
+    .main-container {
+        display: block;
+        margin: 10px;
+        margin-bottom: 20%;
+
+    }
+
+    .child-one {
+        /* height: 100%;
+        width: 100%; */
+        background-image: linear-gradient(to right bottom, 
+        rgb(226, 0, 0, 0.9), 
+        rgba(225, 233, 219, 0.9) ),
+        url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-1-796x417.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .child-two{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .child {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 10px;
+    }
 }
