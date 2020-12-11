@@ -320,7 +320,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 .info-section-link {
@@ -461,9 +461,39 @@ img {
     padding-left: 10px;
 }
 
+.this-image4 {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/apisprotect-368x276.jpg");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
+.this-image5 {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
+.this-image6 {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-368x276.png");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
 .this-image a, 
 .this-image2 a, 
-.this-image3 a {
+.this-image3 a,
+.this-image4 a,
+.this-image5 a,
+.this-image6 a  {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
@@ -559,6 +589,45 @@ img {
     margin: 3px 5px 0 0;
     font-size: 5px;
     color: #f42;
+}
+
+.before-footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.set-image {
+    height: 12rem;
+}
+
+.before-footer-content {
+    width: 280px;
+    padding-top: 20px;
+}
+
+.before-footer-text {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.before-footer-text:hover {
+    color: #f42;
+    text-decoration: underline;
+}
+
+.prices {
+    display: flex;
+    margin-top: 5px;
+}
+
+.price {
+    color: #aaa;
+    padding-top: 4px;
+    vertical-align: baseline;
+    font-size: 12px;
+    margin-right: 10px;
 }
 
 
@@ -684,6 +753,11 @@ img {
         display: block;
     }
 
+    /* .last-image {
+        width: 80px;
+        height: 50px;
+    } */
+
     .second-category-link {
         width: 100%;
         font-size: 15px;
@@ -793,6 +867,33 @@ img {
     }
 
     .this-image3 {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .this-image4 {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .this-image5 {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .this-image6 {
         background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
         color: #fff;
         width: 100%;
