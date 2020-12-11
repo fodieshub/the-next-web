@@ -6,6 +6,7 @@
 
 body {
     background-color: rgba(240, 234, 234, 0.911);
+    font-family: sans-serif;
 }
 
 .container {
@@ -242,11 +243,11 @@ ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #f42;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .latest-new i {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .latest-new:hover {
@@ -342,12 +343,13 @@ img {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-right: 33px;
+    /* margin-right: 33px; */
 }
 
 .info-inner {
     background-color: rgba(255,68,34,.03);
     cursor: pointer;
+    width: 23.5%;
 }
 
 .info-inner hr {
@@ -410,6 +412,154 @@ img {
     color: rgb(143, 143, 143);
 }
 
+.img-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.latest-news {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: #f42;
+    font-weight: 950;
+}
+
+.img-container {
+    width: 368px;
+}
+
+.section-header {
+    font-size: 30%;
+}
+
+.this-image {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/congresszuck-368x276.jpeg");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
+.this-image2 {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
+.this-image3 {
+    background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/cdrr-368x276.png");
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+}
+
+.this-image a, 
+.this-image2 a, 
+.this-image3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+.this-image a:hover {
+    text-decoration: underline;
+}
+
+.img-details {
+    position: absolute;
+    top: 67%;
+
+}
+
+.img-details {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.img-details  p {
+    padding-top: 5px;
+    color: rgb(158, 157, 157);
+}
+
+.this-image h3, 
+.this-image2 h3, 
+.this-image3 h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.post-author:hover {
+    color: #fff;
+}
+
+.img-first-below {
+    display: flex;
+    width: 368px;
+    background-color: rgba(236, 143, 127, 0.03);
+    margin-top: 2px;
+}
+
+.img-first-below img {
+    width: 100px;
+    height: 96px;
+    margin-left: 3px;
+}
+
+.img-first-below2 {
+    padding: 20px 0;
+}
+
+.img-first-below2 h2{
+    font-size: 13px;
+    color: #f42;
+    padding-bottom: 3px;
+}
+
+.img-first-below2 p {
+    font-size: 15px;
+    color: #f42;
+    font-weight: bolder;
+}
+
+.img-first-below2 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-icon {
+    display: flex;
+    margin: 10px 0; 
+    border-bottom: 1px solid rgb(206, 203, 203);
+
+}
+
+.text-icon a {
+    text-decoration: none;
+    font-size: 13.5px;
+    padding-bottom: 5px;
+    color: rgb(48, 47, 47);
+}
+
+.text-icon a:hover {
+    color: #000;
+}
+
+.fa-circle {
+    margin: 3px 5px 0 0;
+    font-size: 5px;
+    color: #f42;
+}
 
 
 @media (max-width: 767px) {
@@ -542,16 +692,30 @@ img {
         padding-top: 7px;
     }
 
+    .details {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
     .latest-new {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: #f42;
-        font-size: 27px;
-        font-weight: 950;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 40%;
+        padding-bottom: 20px;
     }
 
     .info-header {
         display: block;
+    }
+
+    .info-inner {
+        background-color: rgba(255,68,34,.03);
+        width: 100%;
+        margin-top: 15px;
     }
 
     .info-section-link a {
@@ -569,13 +733,98 @@ img {
 
     .info-main-content h3 {
         background-color: #f42;
-        /* padding: 10.6666666667px 16px 10.6666666667px 84px; */
         color: #fff;
     }
 
     .info-section {
         max-width: 100%;
     }
+    
+    .this-image {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .this-image2 {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/congresszuck-368x276.jpeg");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-details {
+        position: absolute;
+        top: 60%;
+    }
+
+    .img-details a {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .img-first-below2 {
+        padding: 10px 0;
+        width: 50%;
+    }
+
+    .img-first-below2 h2 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .img-first-below2 p {
+        font-size: 12px;
+    }
+
+    .img-section {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .this-image3 {
+        background-image: linear-gradient(to left bottom,rgba(7, 7, 7, 0.5), rgb(7, 7, 7, 0.9)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Snag_5c77749-368x276.png");
+        color: #fff;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img-first-below2 h2{
+        font-size: 13px;
+        color: #f42;
+        padding-bottom: 3px;
+    }
+    
+    .img-first-below2 p {
+        font-size: 15px;
+        color: #f42;
+        font-weight: bolder;
+    }
+
+
+.latest-news {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #f42;
+    font-weight: 700;
+}
+
+.fa-chevron-right {
+    font-size: .5px;
+    margin-top: 20px;
+}
     
     
 }
