@@ -842,6 +842,14 @@ img {
         font-weight: 700;
     }
 
+    .img-first-below {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgba(236, 143, 127, 0.03);
+        margin-top: 2px;
+    }
+
     .img-first-below2 {
         padding: 10px 0;
         width: 50%;
