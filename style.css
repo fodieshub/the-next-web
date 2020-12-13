@@ -630,4 +630,30 @@ img {
     margin-right: 10px;
 }
 
+.footer-one {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(31, 30, 30);
+}
+
+.footer-one ul a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-two {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tnw-logo {
+    font-weight: 1000;
+}
+
 
