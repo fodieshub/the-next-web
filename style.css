@@ -54,6 +54,14 @@ ul li a:hover {
     color: #ffffff;
 }
 
+.fa-bars {
+    display: none;
+}
+
+.med-logo {
+    display: none;
+}
+
 .sub-nav {
     height: 50px;
     background-color: #ffffff;
