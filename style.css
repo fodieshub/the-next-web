@@ -54,11 +54,11 @@ ul li a:hover {
     color: #ffffff;
 }
 
-.fa-bars {
+.med-logo {
     display: none;
 }
 
-.med-logo {
+.nav-search-1 .fa-bars {
     display: none;
 }
 
@@ -88,7 +88,7 @@ ul li a:hover {
 }
 
 .nav-search {
-    padding: 14px 16px;
+    padding: 16px 16px;
     font-size: 20px;
     color: #aaa;
 }
@@ -99,8 +99,12 @@ ul li a:hover {
 
 .icon-button {
     background-color: #ffffff;
-    border: 1px solid #aaa;
+    border: 1px solid rgb(218, 216, 216);
     cursor: pointer;
+}
+
+.icon-button i {
+    font-size: 16px;
 }
 
 .nav-search:hover {
