@@ -639,21 +639,23 @@ img {
 
 .footer-one ul a {
     text-decoration: none;
-    padding-left: 20px;
-    font-size: 15px;
-    color: #fff;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #aaa;
 }
 
 .footer-two {
     background-color: black;
-    color: #fff;
+    color: #aaa;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-size: 13px;
 }
 
 .tnw-logo {
     font-weight: 1000;
+    color: #fff;
 }
 
 
