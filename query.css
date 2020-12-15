@@ -450,6 +450,27 @@
         justify-content: space-between;
     } */
 
+    .main-container {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 3rem;
+    }
+
+    .child-one {
+        width: 65%;
+        height: 70vh;
+        background-image: linear-gradient( to right bottom,
+        rgb(123, 0, 0, 0.9), 
+        rgba(0,0,0, 0.9) ),
+        url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-1-796x417.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
     .logo {
         color: #fff;
         font-size: 4rem;
@@ -470,9 +491,26 @@
     .child-one-link {
         text-decoration: none;
         color: #fff;
-        font-size: 45px;
-        /* line-height: 3.5rem; */
+        font-size: 2.9rem;
         font-weight: 920;
+    }
+
+    .aside-title {
+        font-weight: 900;
+    }
+
+    .article1-container {
+        position: absolute;
+        top: 15%;
+        margin-left: 12px;
+        color: #fff;
+    }
+
+    .article1-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 900;
     }
 
 }
