@@ -322,11 +322,13 @@ img {
 .second-catigory {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
 
-.space-up {
+/* .space-up {
     margin-top: 25px;
-}
+} */
 
 .info-header {
     display: flex;

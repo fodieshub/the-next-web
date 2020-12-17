@@ -513,4 +513,22 @@
         font-weight: 900;
     }
 
+    .main-second {
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 0 20px;
+        margin-bottom: 3rem;
+    }
+
+    /* .first-category {
+        width: 70%;
+    } */
+
+    .second-catigory {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
 }
