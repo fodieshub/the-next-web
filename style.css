@@ -326,15 +326,10 @@ img {
     padding-top: 20px;
 }
 
-/* .space-up {
-    margin-top: 25px;
-} */
-
 .info-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 20px 0; */
 }
 
 .info-section-link {
@@ -358,7 +353,6 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    /* margin-right: 33px; */
 }
 
 .info-inner {
