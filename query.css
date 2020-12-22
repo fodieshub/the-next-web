@@ -37,10 +37,6 @@
         display: none;
     }
 
-    /* .nav-search-1 {
-        float: right;
-    } */
-
   body {
       background-color: #fff;
   }
@@ -413,8 +409,6 @@
     background-color: black;
     color: #aaa;
     text-align: center;
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
     font-size: 13px;
 }
 
@@ -441,15 +435,6 @@
         border-bottom: 1px solid rgb(218, 216, 216);
     }
   
-    /* body {
-        background-color: #fff;
-    } */
-
-    /* .child-one-logo {
-        display: flex;
-        justify-content: space-between;
-    } */
-
     .main-container {
         height: 70vh;
         width: 100%;
@@ -519,10 +504,6 @@
         padding: 0 20px;
         margin-bottom: 3rem;
     }
-
-    /* .first-category {
-        width: 70%;
-    } */
 
     .second-catigory {
         display: flex;
