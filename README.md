@@ -6,6 +6,7 @@
 ![screenshot](img/Screenshot2.png)
 ![screenshot](img/Screenshot3.png)
 ![screenshot](img/Screenshot6.png)
+![screenshot](img/Screenshot7.png)
 
 ## Built With
 
